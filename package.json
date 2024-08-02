@@ -1,0 +1,28 @@
+{
+  "name": "miaohe-telegram-group-bot",
+  "version": "1.0.0",
+  "description": "喵和的TG入群验证小助手",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VanVodkaer/MiaoHe-Telegram-Group-Bot.git"
+  },
+  "keywords": [
+    "Telegram",
+    "Bot",
+    "GroupHelper",
+    "Nodejs"
+  ],
+  "author": "VanVodkaer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VanVodkaer/MiaoHe-Telegram-Group-Bot/issues"
+  },
+  "homepage": "https://github.com/VanVodkaer/MiaoHe-Telegram-Group-Bot#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}

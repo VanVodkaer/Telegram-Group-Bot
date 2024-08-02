@@ -1,0 +1,10 @@
+{
+  "TELEGRAM_BOT_ADMIN_ID": "",
+  "TELEGRAM_BOT_TOKEN": "",
+
+  "USE_KEYWORDS_AUTO_REPLY": true,
+  "KEYWORDS_AUTO_REPLY": {
+    "/start (.+)": "你好你好，我是喵和",
+    "喵和": "喵喵喵"
+  }
+}
