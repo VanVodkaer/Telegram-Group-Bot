@@ -7,7 +7,8 @@ const { exit } = require("process");
 
 const configPath = path.resolve(__dirname, "../../config.json");
 
-module.exports = function LoadConfig() {
+module.exports = function () {
+  console.log(`已从 ${configPath} 加载配置文件`);
   try {
     jsonData = JSON.parse(fs.readFileSync(configPath, "utf8"));
     return jsonData;
