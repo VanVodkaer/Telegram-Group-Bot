@@ -1,14 +1,14 @@
 {
-  "name": "miaohe-telegram-group-bot",
+  "name": "telegram-group-bot",
   "version": "1.0.0",
-  "description": "喵和的TG入群验证小助手",
+  "description": "TG群聊小助手",
   "main": "index.js",
   "scripts": {
     "test": "node src/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VanVodkaer/MiaoHe-Telegram-Group-Bot.git"
+    "url": "https://github.com/VanVodkaer/Telegram-Group-Bot.git"
   },
   "keywords": [
     "Telegram",
@@ -19,9 +19,9 @@
   "author": "VanVodkaer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/VanVodkaer/MiaoHe-Telegram-Group-Bot/issues"
+    "url": "https://github.com/VanVodkaer/Telegram-Group-Bot/issues"
   },
-  "homepage": "https://github.com/VanVodkaer/MiaoHe-Telegram-Group-Bot#readme",
+  "homepage": "https://github.com/VanVodkaer/Telegram-Group-Bot#readme",
   "dependencies": {
     "node-telegram-bot-api": "^0.66.0"
   }
