@@ -1,2 +1,2 @@
-# MiaoHe-Telegram-Group-Bot
-喵和的TG群聊验证小助手
+# Telegram-Group-Bot
+TG群聊小助手
