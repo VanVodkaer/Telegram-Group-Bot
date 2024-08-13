@@ -5,7 +5,10 @@ module.exports = function (bot, reply) {
   for (let key in reply) {
     const regexPatterns = new RegExp(key);
     bot.onText(regexPatterns, (msg) => {
-      bot.sendMessage(msg.chat.id, reply[key]);
+      console.log(msg);
+
+      text = require("../utils/placeholder")(msg.chat, reply[key]);
+      bot.sendMessage(msg.chat.id, text);
     });
   }
 };

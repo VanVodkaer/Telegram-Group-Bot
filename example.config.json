@@ -4,12 +4,12 @@
 
   "USE_KEYWORDS_AUTO_REPLY": true,
   "KEYWORDS_AUTO_REPLY": {
-    "/echo (.+)": "你好你好，我是喵和",
-    "喵和": "喵喵喵"
+    "/echo (.+)": "你好${FIRST_NAME}，我是喵和",
+    "喵和": "喵喵喵，${ID}"
   },
 
   "USE_WELCOME_NEW_GROUP_MEMBER": true,
   "WELCOME_NEW_GROUP_MEMBER": {
-    "REPLY_CONTENT": "你好，欢迎新成员来到喵和"
+    "REPLY_CONTENT": "你好@${USER_NAME}，欢迎新成员来到喵和"
   }
 }
